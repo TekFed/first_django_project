@@ -88,3 +88,6 @@ celerybeat.pid
 
 ### Docker (If using containerization) ###
 .dockerignore
+
+### extra ###
+course-snippet-clones/
