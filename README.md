@@ -1,4 +1,4 @@
-# First Django Project
+# My First Django Project
 
 A small Django web application built with Django 5.2.6.
 
