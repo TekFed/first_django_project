@@ -1,0 +1,90 @@
+# ==============================================================================
+# Django Web Application - Standard Gitignore
+# ==============================================================================
+
+### Django Specific ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static_root/
+
+### Environment Variables & Secrets (CRITICAL) ###
+.env
+.secrets
+secrets.json
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+### Python Virtual Environments ###
+.venv/
+venv/
+ENV/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+### Python Build & Distribution ###
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+### IDEs and Editors ###
+# JetBrains (PyCharm, WebStorm, etc.)
+.idea/
+*.iws
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Sublime Text / Atom
+*.sublime-project
+*.sublime-workspace
+
+# Local history / backup files
+.DS_Store
+Thumbs.db
+*~
+*.bak
+*.swp
+*.swo
+
+### Testing and Coverage ###
+htmlcov/
+.tox/
+.nosetests
+.pytest_cache/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.coverage
+.coverage.*
+
+### Celery & Redis (If used for async tasks) ###
+celerybeat-schedule
+celerybeat.pid
+
+### Docker (If using containerization) ###
+.dockerignore
