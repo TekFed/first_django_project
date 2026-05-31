@@ -1,4 +1,4 @@
-# My First Django Project
+# Simple Django Blog
 
 A small Django web application built with Django 5.2.6.
 
