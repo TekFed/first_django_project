@@ -91,3 +91,4 @@ celerybeat.pid
 
 ### extra ###
 course-snippet-clones/
+media/
